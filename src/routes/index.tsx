@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 
 const AppRouter = () => (
   <Routes>
-    <Route path="/" element={<Pages />}>
+    <Route path="/athosws" element={<Pages />}>
       <Route path="" element={<Home />} />
     </Route>
   </Routes>
