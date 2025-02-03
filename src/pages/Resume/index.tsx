@@ -14,8 +14,11 @@ const Resume = () => {
 
   return (
     <div className="flex items-center justify-center h-full">
-      <div className="flex gap-4">
-        <img className="h-[80vh]" src={require("./curriculum.png")} />
+      <div className="flex gap-4 md:!flex-row flex-col items-center">
+        <img
+          className="md:!h-[80vh] md:!w-auto w-[90vw]"
+          src={require("./curriculum.png")}
+        />
         <div
           onClick={download}
           className="bg-white flex gap-1 items-center text-2xl h-fit text-black p-2 rounded-md cursor-pointer hover:scale-105 transition-transform duration-200"

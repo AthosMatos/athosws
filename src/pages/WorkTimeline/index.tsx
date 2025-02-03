@@ -1,16 +1,17 @@
 import { useNavigate } from "react-router-dom";
-import { paths } from "../layout";
+
+import { paths } from "../../Layout/Menu";
 import Dot from "./components/Dot";
 
 const WorkTTimeline = () => {
   const nav = useNavigate();
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center">
-      <div className="">
-        <div className="flex items-center gap-4 font-bold text-white text-lg">
+    <div className="w-full md:!h-[85vh] flex flex-col items-center justify-center">
+      <div className="md:!mr-0 mr-36">
+        <div className="flex md:!flex-row flex-col items-center gap-4 font-bold text-white text-lg">
           <p>2019</p>
-          <div className="bg-white h-2 rounded-full w-[80vw]">
-            <div className="flex mt-[-0.34rem]">
+          <div className="bg-white rounded-full md:!w-[80vw] md:!h-2 h-[74vh] w-2">
+            <div className="flex md:!mt-[-0.34rem] md:!ml-0 ml-[-0.34rem] ">
               <Dot
                 year={2019}
                 title="University"
@@ -45,7 +46,7 @@ const WorkTTimeline = () => {
                 location="SETHAS - Natal/RN"
                 year={2022}
                 position={45}
-                onClick={() => nav(paths.colaboradorPonto)}
+                onClick={() => nav(`/athosws/${paths.colaboradorPonto}`)}
               />
               <Dot
                 title="Junior Developer"
@@ -60,7 +61,7 @@ const WorkTTimeline = () => {
                 location="PGE - Natal/RN"
                 year={2023}
                 position={72}
-                onClick={() => nav(paths.econome)}
+                onClick={() => nav(`/athosws/${paths.econome}`)}
               />
               <Dot
                 title="Graduation"
@@ -82,7 +83,7 @@ const WorkTTimeline = () => {
                 location="PGE - Natal/RN"
                 year={2024}
                 position={94}
-                onClick={() => nav(paths.athosComponents)}
+                onClick={() => nav(`/athosws/${paths.athosComponents}`)}
               />
             </div>
           </div>

@@ -1,7 +1,8 @@
 import { FaNpm } from "react-icons/fa";
 import { TbHandClick } from "react-icons/tb";
 import { ButtonWrapper } from "../../components/ButtonWrapper";
-import { paths } from "../layout";
+
+import { paths } from "../../Layout/Menu";
 import { Techs } from "../Skills/consts";
 import { ProjectI } from "./interfaces";
 

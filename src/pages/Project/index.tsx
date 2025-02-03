@@ -14,14 +14,14 @@ const Project = () => {
   const data = projects.find((project: ProjectI) => project.path.includes(id));
 
   return (
-    <div className="flex xl:flex-row flex-col gap-10 p-2">
+    <div className="flex xl:!flex-row flex-col gap-10 p-2">
       <Images data={data} />
 
       <div className="flex py-4 gap-4 flex-col w-full">
         <div className="text-white flex flex-col gap-4">
           {!showIframe && (
             <>
-              <SkillsUsed />
+              <SkillsUsed data={data} />
               <h1 className="text-4xl font-bold">{data?.description}</h1>
             </>
           )}

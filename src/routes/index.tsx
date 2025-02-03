@@ -14,8 +14,8 @@ import WorkTimeline from "../pages/WorkTimeline";
 
 const AppRouter = () => (
   <Routes>
-    <Route path="" element={<Pages />}>
-      <Route path="/" element={<About />} />
+    <Route path="athosws" element={<Pages />}>
+      <Route path="" element={<About />} />
       <Route path="tabela" element={<Tabela />} />
       <Route path="cards" element={<Cards />} />
       <Route path="contact" element={<Contact />} />

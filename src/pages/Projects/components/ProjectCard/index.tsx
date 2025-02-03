@@ -31,8 +31,8 @@ const ProjectCard = (props: ProjectI) => {
   const nav = useNavigate();
   return (
     <div
-      onClick={() => nav(props.path)}
-      className="w-80 h-[28rem] group flex flex-col border border-gray-500 cursor-pointer rounded-xl overflow-hidden"
+      onClick={() => nav(`/athosws/${props.path}`)}
+      className="md:!w-80 w-full h-[28rem] group flex flex-col border border-gray-500 cursor-pointer rounded-xl overflow-hidden"
     >
       <div className="overflow-hidden h-52">
         <img

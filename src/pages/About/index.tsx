@@ -26,7 +26,7 @@ const ImageCard = () => {
       <div className="relative z-30">
         <div
           onClick={() => {
-            nav("/contact");
+            nav("contact");
           }}
           className="absolute m-4 select-none active:scale-100 transition-transform 
     cursor-pointer hover:scale-105 text-white font-semibold 
@@ -87,10 +87,8 @@ const InfoSection = () => {
   );
 };
 const About = () => {
-  const date = new Date().getFullYear() - 2020;
-
   return (
-    <div className="py-8 px-6 flex flex-col md:flex-row text-white gap-4 text-justify">
+    <div className="flex-col lg:!flex-row py-8 px-6 flex text-white gap-4 text-justify">
       <ImageCard />
       <InfoSection />
     </div>

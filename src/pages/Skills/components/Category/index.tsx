@@ -9,7 +9,7 @@ const Category = ({ title, isSelected, onClick }: CategoryProps) => {
     <p
       onClick={onClick}
       className={`
-        text-xl text-gray-200 font-bold border w-32 text-center rounded-lg ${
+        md:!text-xl text-sm text-gray-200 font-bold border md:!w-32 w-28 text-center rounded-lg ${
           isSelected ? "border-white" : "border-gray-400"
         }
         p-3 cursor-pointer select-none transition-all active:scale-95

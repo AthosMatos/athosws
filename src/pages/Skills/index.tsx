@@ -59,8 +59,8 @@ const Skills = () => {
   }, [selectedCategory, categories]);
 
   return (
-    <div className="h-full flex items-center gap-10">
-      <div className="flex gap-4 flex-col justify-center items-center flex-1">
+    <div className="h-full flex md:!flex-row flex-col items-center gap-10">
+      <div className="flex gap-4 md:flex-col md:flex-nowrap flex-wrap justify-center items-center flex-1">
         <Category
           title={"All"}
           onClick={() => selectCategory("All")}
@@ -78,7 +78,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <div className="flex gap-4 flex-wrap flex-[4] pr-10">
+      <div className="flex gap-4 flex-wrap md:!justify-start justify-center flex-[4] md:!pr-10">
         <AnimatePresence mode="popLayout">
           {skills.map((skill) => (
             <motion.div

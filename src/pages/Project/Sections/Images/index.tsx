@@ -78,7 +78,7 @@ const Images = ({ data }: ImagesI) => {
       {data?.imgs.length! > 0 && (
         <div className="pb-4 w-full relative flex flex-col gap-4 border border-gray-500 rounded-3xl select-none overflow-hidden">
           <img
-            className="w-[94vw] h-[42rem] xl:w-full select-auto cursor-zoom-in object-cover"
+            className="xl:!w-full w-[94vw] h-[42rem] select-auto cursor-zoom-in object-cover"
             src={data?.imgs[selectedImg]}
             onClick={() => setImgOpen(true)}
           />
