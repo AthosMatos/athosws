@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/athosws/static/css/main.f3803e14.css",
-    "main.js": "/athosws/static/js/main.b4cddc77.js",
+    "main.css": "/athosws/static/css/main.0fb859ec.css",
+    "main.js": "/athosws/static/js/main.dcbd7d62.js",
     "static/media/me.jpg": "/athosws/static/media/me.b85cb2aa3785b36e6bcd.jpg",
     "static/media/sohtaengine.png": "/athosws/static/media/sohtaengine.2e737e5f73e346f353a9.png",
     "static/media/sohtaengine (2).png": "/athosws/static/media/sohtaengine (2).e422d13abd6b8c1705fc.png",
@@ -27,11 +27,11 @@
     "static/media/uernthegame (3).png": "/athosws/static/media/uernthegame (3).13c848f49bd0b885ab0b.png",
     "static/media/uernthegame.png": "/athosws/static/media/uernthegame.1cf7e4a9ace5def1db62.png",
     "index.html": "/athosws/index.html",
-    "main.f3803e14.css.map": "/athosws/static/css/main.f3803e14.css.map",
-    "main.b4cddc77.js.map": "/athosws/static/js/main.b4cddc77.js.map"
+    "main.0fb859ec.css.map": "/athosws/static/css/main.0fb859ec.css.map",
+    "main.dcbd7d62.js.map": "/athosws/static/js/main.dcbd7d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3803e14.css",
-    "static/js/main.b4cddc77.js"
+    "static/css/main.0fb859ec.css",
+    "static/js/main.dcbd7d62.js"
   ]
 }
