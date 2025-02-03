@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/athosws/static/css/main.6468c130.css",
-    "main.js": "/athosws/static/js/main.eab8f228.js",
+    "main.css": "/athosws/static/css/main.f3803e14.css",
+    "main.js": "/athosws/static/js/main.b4cddc77.js",
     "static/media/me.jpg": "/athosws/static/media/me.b85cb2aa3785b36e6bcd.jpg",
     "static/media/sohtaengine.png": "/athosws/static/media/sohtaengine.2e737e5f73e346f353a9.png",
     "static/media/sohtaengine (2).png": "/athosws/static/media/sohtaengine (2).e422d13abd6b8c1705fc.png",
     "static/media/econome.png": "/athosws/static/media/econome.c798f4619edfa9528dc2.png",
     "static/media/uernthegame (2).png": "/athosws/static/media/uernthegame (2).ffa38d9039610ca5106a.png",
     "static/media/econome2.png": "/athosws/static/media/econome2.72c38b6a1a9b1bfd1ec7.png",
-    "static/media/curriculum.png": "/athosws/static/media/curriculum.75a2232a1d0d7d520758.png",
+    "static/media/curriculum.png": "/athosws/static/media/curriculum.f5f42b27d4f25dc1e08e.png",
     "static/media/uernthegame (8).png": "/athosws/static/media/uernthegame (8).b995902ff4f767cfaea2.png",
     "static/media/autotab.png": "/athosws/static/media/autotab.c88fdb52a4a3636f20e7.png",
     "static/media/uernthegame (7).png": "/athosws/static/media/uernthegame (7).2f97f523ac9c3495c897.png",
@@ -27,11 +27,11 @@
     "static/media/uernthegame (3).png": "/athosws/static/media/uernthegame (3).13c848f49bd0b885ab0b.png",
     "static/media/uernthegame.png": "/athosws/static/media/uernthegame.1cf7e4a9ace5def1db62.png",
     "index.html": "/athosws/index.html",
-    "main.6468c130.css.map": "/athosws/static/css/main.6468c130.css.map",
-    "main.eab8f228.js.map": "/athosws/static/js/main.eab8f228.js.map"
+    "main.f3803e14.css.map": "/athosws/static/css/main.f3803e14.css.map",
+    "main.b4cddc77.js.map": "/athosws/static/js/main.b4cddc77.js.map"
   },
   "entrypoints": [
-    "static/css/main.6468c130.css",
-    "static/js/main.eab8f228.js"
+    "static/css/main.f3803e14.css",
+    "static/js/main.b4cddc77.js"
   ]
 }
